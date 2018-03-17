@@ -33,6 +33,10 @@ function testscore(score,random_number) {
         this.score = 0;
         this.random_number = Math.floor(Math.random() * 120) + 19;
         $("#keys").html("<h5>Your total score so far is: <input id='whichkey' maxlength='3' size=2 value=''></input></h5>");
+        crystal1 = getRandomInt(1, 12);
+        crystal2 = getRandomInt(1, 12);
+        crystal3 = getRandomInt(1, 12);
+        crystal4 = getRandomInt(1, 12);
     };
     if (score > random_number) {
         this.loses_counter += 1
@@ -41,6 +45,10 @@ function testscore(score,random_number) {
         this.score = 0;
         this.random_number = Math.floor(Math.random() * 120) + 19;
         $("#keys").html("<h5>Your total score so far is: <input id='whichkey' maxlength='3' size=2 value=''></input></h5>");
+        crystal1 = getRandomInt(1, 12);
+        crystal2 = getRandomInt(1, 12);
+        crystal3 = getRandomInt(1, 12);
+        crystal4 = getRandomInt(1, 12);
     };  
 };
 
