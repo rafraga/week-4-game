@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div id="all">
+    <div class="card card-cascade wider reverse my-4">
+    <div class="card-body text-center">
+    <h2 class="card-title"><strong>Crystals Collector</strong></h2>
+    </div>
+    </div>
+    <center>
+        <div class="row">
+            <div class="col-sm-3">
+                    </div>
+            <div class="col-sm-6">
+                    <div class="card">
+                        <br>
+                        <div style="display: inline-block">
+                            <button id='button1' type='button' class='btn btn-secondary'><img src="assets/images/crystal1.png" height="25px"></button>
+                            <button id='button2' type='button' class='btn btn-secondary'><img src="assets/images/crystal2.png" height="25px"></button>
+                            <button id='button3' type='button' class='btn btn-secondary'><img src="assets/images/crystal3.png" height="25px"></button>
+                            <button id='button4' type='button' class='btn btn-secondary'><img src="assets/images/crystal4.png" height="25px"></button>
+                            <br>
+                            <div id="random_num"></div>
+                        </div>
+                       
+                        <br>
+                        <div style="display: inline-block"></div>
+                            <div id="keys"><h5>Your total score so far is: <input id="whichkey" value="" maxlength="3" size="2"></input></h5></div>
+                    </div>
+
+                    <br>
+                        <div id="wins"><h6>Wins:</h6></div>
+                        <div id="loses"><h6>Loses:</h6></div>
+
+
+                </div>
+            </div>
+                <div class="col-sm-3">
+            </div>
+            <br>
+    <div id="message"></div>
+        </div>
+        
+    </center>
+
+<script src="assets/javascript/game.js"></script>
+</html>
